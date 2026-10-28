@@ -240,6 +240,14 @@ I dati vengono sincronizzati automaticamente quando ricevi webhooks da Shopify.
 1. Assicurati che il server sia in esecuzione su http://localhost:3001
 2. Verifica che la URL nel frontend sia corretta
 
+## ✅ Checklist rapida prima del deploy
+
+1. `backend/.env` compilato con credenziali reali (mai committato).
+2. Test connessione passato: `npm run test:shopify`.
+3. Server avviato e API raggiungibile su `http://localhost:3001`.
+4. Webhook Shopify configurati sugli endpoint `/api/sync/webhooks/*`.
+5. Controllo finale Git: nessun token o secret nei file in stage (`git diff --staged`).
+
 ## 📚 Risorse Utili
 
 - **Shopify API Docs**: https://shopify.dev/api/admin-rest
