@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist
+.git
+.gitignore
+.gemini
+Dockerfile
+docker-compose.yml
+.env.local
+.env.*.local

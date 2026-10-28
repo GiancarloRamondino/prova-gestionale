@@ -1,0 +1,33 @@
+{
+  "name": "call-center-ecommerce-crm",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.js",
+    "start": "concurrently \"node server.js\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:shopify": "node backend/test.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^13.0.0",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "shopify-api-node": "^3.13.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.1.0"
+  }
+}

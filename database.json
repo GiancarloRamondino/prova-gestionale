@@ -1,0 +1,839 @@
+{
+  "customers": [
+    {
+      "id": "cust-1792580880850",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "email": "",
+      "address": "Via Roma 45",
+      "city": "Milano",
+      "zip": "",
+      "province": "",
+      "notes": "Cliente abituale. Preferisce consegna la mattina.",
+      "vip": false,
+      "createdAt": "2026-10-21T11:08:00.850Z"
+    },
+    {
+      "id": "cust-1790870402589",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "email": "",
+      "address": "Via Roma 45",
+      "city": "Milano",
+      "zip": "",
+      "province": "",
+      "notes": "Cliente abituale. Preferisce consegna la mattina.",
+      "vip": false,
+      "createdAt": "2026-10-01T16:00:02.589Z"
+    },
+    {
+      "id": "cust-1786715716775",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "email": "",
+      "address": "Via Roma 45",
+      "city": "Milano",
+      "zip": "",
+      "province": "",
+      "notes": "Cliente abituale. Preferisce consegna la mattina.",
+      "vip": false,
+      "createdAt": "2026-08-14T13:55:16.775Z"
+    },
+    {
+      "id": "cust-1786652145022",
+      "phone": "48738594538",
+      "name": "tiziano ferro",
+      "address": "",
+      "vip": false,
+      "notes": "Registrato automaticamente durante la presa ordine.",
+      "createdAt": "2026-08-13T20:15:45.022Z"
+    },
+    {
+      "id": "cust-1786650442764",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "email": "",
+      "address": "Via Roma 45",
+      "city": "Milano",
+      "zip": "",
+      "province": "",
+      "notes": "Cliente abituale. Preferisce consegna la mattina.",
+      "vip": false,
+      "createdAt": "2026-08-13T19:47:22.764Z"
+    },
+    {
+      "id": "cust-1786648207967",
+      "phone": "333000111",
+      "name": "Nuovo Contatto",
+      "email": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "province": "",
+      "notes": "",
+      "vip": false,
+      "createdAt": "2026-08-13T19:10:07.967Z"
+    },
+    {
+      "id": "cust-1786648158677",
+      "phone": "123456123456",
+      "name": "Test ButtonTest BTest Buttonutton",
+      "address": "",
+      "vip": false,
+      "notes": "Registrato automaticamente durante la presa ordine.",
+      "createdAt": "2026-08-13T19:09:18.677Z"
+    },
+    {
+      "id": "cust-1786646438376",
+      "phone": "+39 333 4445555",
+      "name": "Alessandro Rossi",
+      "address": "",
+      "vip": false,
+      "notes": "Registrato automaticamente durante la presa ordine.",
+      "createdAt": "2026-08-13T18:40:38.376Z"
+    },
+    {
+      "id": "cust-101",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "email": "marco.rossi@gmail.com",
+      "address": "Via Roma 45",
+      "city": "Milano",
+      "zip": "20121",
+      "province": "MI",
+      "notes": "Cliente abituale. Preferisce consegna la mattina.",
+      "vip": true,
+      "createdAt": "2026-07-10T10:00:00.000Z"
+    },
+    {
+      "id": "cust-102",
+      "phone": "+39 338 987 6543",
+      "name": "Laura Bianchi",
+      "email": "laura.b@outlook.it",
+      "address": "Corso Vittorio Emanuele 12",
+      "city": "Torino",
+      "zip": "10123",
+      "province": "TO",
+      "notes": "Chiedere sempre conferma telefonica prima della spedizione.",
+      "vip": false,
+      "createdAt": "2026-07-15T14:30:00.000Z"
+    },
+    {
+      "id": "cust-103",
+      "phone": "+39 320 555 1212",
+      "name": "Giuseppe Verde",
+      "email": "g.verde@libero.it",
+      "address": "Via Napoli 88",
+      "city": "Roma",
+      "zip": "00185",
+      "province": "RM",
+      "notes": "Paga sempre in Contrassegno alla consegna.",
+      "vip": true,
+      "createdAt": "2026-08-01T09:15:00.000Z"
+    },
+    {
+      "id": "cust-104",
+      "phone": "+39 347 777 8899",
+      "name": "Elena Esposito",
+      "email": "elena.esposito@gmail.com",
+      "address": "Via Garibaldi 104",
+      "city": "Napoli",
+      "zip": "80138",
+      "province": "NA",
+      "notes": "Nuovo contatto e-commerce.",
+      "vip": false,
+      "createdAt": "2026-08-10T16:20:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1786648241744",
+      "sku": "SKU-9964",
+      "name": "Prodotto Test",
+      "price": 15,
+      "stock": 1,
+      "category": "Integratori",
+      "description": ""
+    },
+    {
+      "id": "prod-1",
+      "sku": "SL-MAX-01",
+      "name": "Integratore SmartLife Ultra Energy (60 cps)",
+      "price": 29.9,
+      "stock": 45,
+      "category": "Integratori",
+      "description": "Integratore naturale per energia e concentrazione cellulare."
+    },
+    {
+      "id": "prod-2",
+      "sku": "BEAUTY-GLOW-02",
+      "name": "Siero Viso Acido Ialuronico PureGlow 50ml",
+      "price": 39.5,
+      "stock": 30,
+      "category": "Cosmetica",
+      "description": "Siero idratante ed anti-età ad alta concentrazione."
+    },
+    {
+      "id": "prod-3",
+      "sku": "COFFEE-PREM-03",
+      "name": "Caffè in Grani Miscela Bar Elite 1Kg",
+      "price": 18.9,
+      "stock": 100,
+      "category": "Alimentari",
+      "description": "Miscela selezionata 80% Arabica 20% Robusta tostatura italiana."
+    },
+    {
+      "id": "prod-4",
+      "sku": "FIT-DETOX-04",
+      "name": "Tisana Bio Slim & Detox (Pack 30 Filtri)",
+      "price": 14.5,
+      "stock": 60,
+      "category": "Tisane & Infusi",
+      "description": "Miscela purificante di zenzero, limone e tè verde biologico."
+    },
+    {
+      "id": "prod-5",
+      "sku": "DIFF-AROMA-05",
+      "name": "Diffusore di Aromi ad Ultrasuoni RGB Premium",
+      "price": 49.9,
+      "stock": 18,
+      "category": "Casa & Benessere",
+      "description": "Diffusore 500ml con timer, luci LED cromatiche e spegnimento auto."
+    }
+  ],
+  "orders": [],
+  "callHistory": [
+    {
+      "id": "call-1793201042999",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-28T15:24:02.999Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1792580868620",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-21T11:07:48.620Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1792580743768",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-21T11:05:43.768Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1792580709881",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-21T11:05:09.881Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1791800660498",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-12T10:24:20.498Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1791799762866",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-12T10:09:22.866Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1791799588439",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-12T10:06:28.439Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1791799535118",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-12T10:05:35.118Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1790870368882",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-01T15:59:28.882Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1790870295498",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-10-01T15:58:15.498Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1790096420679",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-22T17:00:20.679Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789569191782",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T14:33:11.782Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789568817933",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T14:26:57.933Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789568290796",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T14:18:10.796Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789568169944",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T14:16:09.945Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789563871118",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T13:04:31.118Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789554858936",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T10:34:18.936Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789553624794",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T10:13:44.794Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789553297853",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T10:08:17.853Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789553022466",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T10:03:42.466Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789553002367",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T10:03:22.367Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789552552004",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T09:55:52.004Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789551930067",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-16T09:45:30.067Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789497461049",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-15T18:37:41.049Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1789497343180",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-09-15T18:35:43.180Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1786743929882",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-08-14T21:45:29.882Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1786729659512",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-08-14T17:47:39.512Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1786729594090",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-08-14T17:46:34.090Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1786729587991",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola giacomino",
+      "timestamp": "2026-08-14T17:46:27.991Z",
+      "status": "Chiamata da Cliente (Nicola giacomino)"
+    },
+    {
+      "id": "call-1786715672965",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:54:32.965Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786715488946",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:51:28.946Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786715289241",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:48:09.241Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786715260577",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:47:40.577Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786715249056",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:47:29.056Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786714387474",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:33:07.474Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786714238567",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T13:30:38.567Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786711956757",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T12:52:36.757Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786711921617",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T12:52:01.617Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786701841974",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T10:04:01.974Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786701387391",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T09:56:27.391Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786691009739",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T07:03:29.739Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786688125985",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T06:15:25.985Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786688077245",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T06:14:37.245Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786687295352",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T06:01:35.352Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786687295337",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-14T06:01:35.337Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786654459204",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:54:19.204Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786654415471",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:53:35.471Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786654241167",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:50:41.167Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786654069625",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:47:49.625Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786654038816",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:47:18.816Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653730061",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:42:10.061Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653646624",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:40:46.624Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653485898",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:38:05.898Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653469173",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:37:49.173Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653251121",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:34:11.121Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653139618",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:32:19.618Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786653123008",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:32:03.008Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652755267",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:25:55.267Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652739267",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:25:39.267Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652610342",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:23:30.342Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652582157",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:23:02.157Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652549723",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:22:29.723Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652374896",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:19:34.896Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652160610",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:16:00.610Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786652048787",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:14:08.787Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786651972343",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:12:52.343Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786651833084",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:10:33.084Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786651730343",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:08:50.343Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786651652946",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:07:32.946Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786651521638",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:05:21.638Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786651396948",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T20:03:16.948Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786650912488",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T19:55:12.488Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786650702072",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T19:51:42.072Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786650512669",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T19:48:32.669Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786650489486",
+      "phone": "+39 340 123 4567",
+      "name": "Nicola Tesla",
+      "timestamp": "2026-08-13T19:48:09.486Z",
+      "status": "Chiamata da Cliente (Nicola Tesla)"
+    },
+    {
+      "id": "call-1786650401796",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:46:41.796Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786650219840",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:43:39.840Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786650180449",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:43:00.449Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786650128458",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:42:08.458Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786649624964",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:33:44.964Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786648250853",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:10:50.853Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786647870890",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:04:30.891Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786647841804",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:04:01.804Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786647696093",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T19:01:36.093Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786647101140",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T18:51:41.140Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786646899412",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T18:48:19.412Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786646598889",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T18:43:18.889Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1786646154473",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-13T18:35:54.473Z",
+      "status": "Chiamata da Cliente (Marco Rossi)"
+    },
+    {
+      "id": "call-1",
+      "phone": "+39 340 123 4567",
+      "name": "Marco Rossi",
+      "timestamp": "2026-08-12T11:18:00.000Z",
+      "status": "Risposta - Ordine Creato ORD-2026-1001",
+      "duration": 142
+    },
+    {
+      "id": "call-2",
+      "phone": "+39 320 555 1212",
+      "name": "Giuseppe Verde",
+      "timestamp": "2026-08-13T09:43:00.000Z",
+      "status": "Risposta - Ordine Creato ORD-2026-1002",
+      "duration": 98
+    }
+  ]
+}

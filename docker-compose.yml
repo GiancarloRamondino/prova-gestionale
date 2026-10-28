@@ -1,0 +1,15 @@
+services:
+  gestionale-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gestionale_callcenter_ecommerce
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+    volumes:
+      - ./database.json:/app/database.json
+      - ./excel:/app/excel
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=development
