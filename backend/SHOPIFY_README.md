@@ -13,12 +13,14 @@ npm install
 
 Nel file `.env` aggiungi:
 ```
-SHOPIFY_SHOP=Il nome del tuo Shopify store (es: Licata Gioielli)
+SHOPIFY_SHOP=Subdomain del tuo store (es: licata-gioielli o licata-gioielli.myshopify.com)
 SHOPIFY_CLIENT_ID=Il tuo Client ID da Shopify
 SHOPIFY_CLIENT_SECRET=Il tuo Client Secret da Shopify
 SHOPIFY_ACCESS_TOKEN=Token di accesso per l'API (generato da Shopify)
 SHOPIFY_API_KEY=Chiave API per validazione webhooks (opzionale)
 ```
+
+Consiglio: crea prima `backend/.env` copiando `backend/.env.example`, poi sostituisci i placeholder con valori reali.
 
 ### 3. Avviare il server
 ```bash

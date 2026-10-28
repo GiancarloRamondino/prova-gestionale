@@ -9,6 +9,21 @@ Questo documento ti guida passo per passo nel setup completo del backend Shopify
 - Un account Shopify Developer
 - Un Shopify Store
 
+## 🧱 Step 0: Preparazione progetto (mancante ma fondamentale)
+
+1. Apri il terminale nella root del progetto.
+2. Installa le dipendenze:
+   ```bash
+   npm install
+   ```
+3. Crea il file ambiente locale partendo dal template:
+   ```bash
+   copy backend\.env.example backend\.env
+   ```
+4. Apri `backend/.env` e compila i valori reali.
+
+> `backend/.env` contiene segreti e non va pubblicato su GitHub.
+
 ## 🔑 Step 1: Ottenere le Credenziali Shopify
 
 ### 1.1 Accedi a Shopify Admin
@@ -60,10 +75,10 @@ SHOPIFY_ACCESS_TOKEN=shpat_xxxxxxxxxxxxx
 
 3. Salva il file
 
-### 2.2 Installa le Dipendenze
-```bash
-npm install
-```
+4. Verifica formato `SHOPIFY_SHOP`:
+   - corretto: `licata-gioielli`
+   - corretto: `licata-gioielli.myshopify.com`
+   - errato: `Licata Gioielli` (con spazio)
 
 ## ✅ Step 3: Testare la Connessione
 
@@ -153,20 +168,32 @@ I webhooks permettono a Shopify di notificare il tuo backend quando avvengono ev
 2. Scorri fino a **Webhooks**
 3. Clicca **Create webhook**
 4. Per ogni evento che vuoi monitorare:
-   - Seleziona l'evento (es: "Product created", "Order created")
+   - Seleziona l'evento (es: "Product updated", "Order created", "Customer created")
    - Nella sezione **Endpoint URL**, inserisci:
      ```
-     https://your-domain.com/api/sync/webhooks/product-created
-     https://your-domain.com/api/sync/webhooks/order-created
+     https://your-domain.com/api/sync/webhooks/product-updated
+     https://your-domain.com/api/sync/webhooks/order-created-sync
+     https://your-domain.com/api/sync/webhooks/customer-created-sync
      ```
    - Clicca **Save**
 
 ### 6.2 Eventi Disponibili
-- **Product created**: `POST /api/shopify/webhooks/product-created`
 - **Product updated**: `POST /api/sync/webhooks/product-updated`
-- **Order created**: `POST /api/shopify/webhooks/order-created`
-- **Order updated**: `POST /api/shopify/webhooks/order-updated`
+- **Order created**: `POST /api/sync/webhooks/order-created-sync`
 - **Customer created**: `POST /api/sync/webhooks/customer-created-sync`
+
+## 🔐 Step 8: Sicurezza e pubblicazione GitHub
+
+Prima di pushare:
+
+1. Mantieni i segreti solo in `backend/.env`.
+2. Non inserire mai token reali nei file `.md`, `.js` o `.json`.
+3. Se un token è stato esposto, rigeneralo subito in Shopify Admin.
+4. Esegui un controllo veloce:
+   ```bash
+   git status
+   git diff --staged
+   ```
 
 ## 📊 Step 7: Sincronizzare Dati
 
